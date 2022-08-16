@@ -20,18 +20,19 @@ body {
 
 .tituloIndex h1 {
   color: #ffffff;
+  font-size: 3rem;
 }
 
 .nav-link {
   color: #ffffff;
   font-size: 1rem;
-  transition: all 50ms;
+  transition: 1s;
 }
 
 .nav-link:hover {
   color: #ffffff;
-  font-size: 1.3rem;
-  opacity: 90%;
+  font-size: 1.5rem;
+  opacity: 50%;
 }
 
 .imgIndex1 {
@@ -49,10 +50,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.tituloh2 {
-  margin: 2rem;
 }
 
 .servicios {
@@ -107,6 +104,20 @@ footer div strong {
     text-align: center;
   }
 }
+.servicios {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
 .logoFlor {
   width: 5%;
 }
@@ -116,7 +127,8 @@ footer div strong {
 }
 
 h2 {
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mapContacto {
@@ -126,4 +138,200 @@ h2 {
 
 .flechaC {
   width: 5%;
+}
+
+.separadorContacto {
+  border-bottom: black solid;
+}
+
+.tituloUno {
+  font-size: 2.5rem;
+}
+
+.tituloDos {
+  font-size: 2rem;
+}
+
+.tituloTres {
+  font-size: 1.5rem;
+}
+
+.parrafos, .parrafosFooter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.parrafosFooter {
+  color: mediumblue;
+}
+
+/* MIXIN BOTONES CON ESTILO*/
+.boton {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #034748;
+  border-width: 0.3rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.separador {
+  background-image: url(../imagenes/prueba5.jpg);
+  width: 100%;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-radius: 10rem;
+  margin-bottom: 2rem;
+  margin-top: 6rem;
+}
+
+.conteiner {
+  width: 100%;
+}
+
+.tituloH2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+div h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sponsors {
+  margin-bottom: 4rem;
+}
+
+.perfil {
+  height: 12rem;
+}
+
+.inCC {
+  height: 4em;
+  width: 4em;
+}
+
+/*.card{
+    border-color: black;
+    border-style: solid;
+    border-width: 0.2rem;
+}*/
+.sponsorImg {
+  height: 8rem;
+}
+
+.consulta {
+  text-decoration: none;
+}
+
+.parrafo {
+  margin-bottom: 4rem;
+}
+
+.d-block {
+  height: 20rem;
+  width: 100%;
+  border-style: solid;
+  border-radius: 2rem;
+}
+
+.flechaG {
+  height: 4rem;
+  width: 4rem;
+}
+
+/*.contenedorImg{
+    width: 25rem;
+    height: 15.5rem;
+    background-image:url(../imagenes/riegoG4.jpg) ;
+    border-style: solid;
+    border-radius: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+
+}*/
+.buttonGaleria {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #034748;
+  border-width: 0.3rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.buttonGaleria a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.galeriaParrafo {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-weight: bolder;
+}
+
+.logos {
+  width: 3%;
+}
+
+.tituloH2 {
+  border-bottom: black;
+}
+
+.jardineria {
+  background-image: url(../imagenes/cursos2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 12rem;
+  border-radius: 3rem;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+}
+.jardineria h3 {
+  color: #ffffff;
+}
+
+.jardineriaCurs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.buttonCursos {
+  background-color: black;
+  color: black;
+  border-radius: 1rem;
+}
+.buttonCursos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.jardineriaCurs {
+  padding: 3rem;
+  border-bottom: black;
+  border-top: #ffffff;
+  border-left: #ffffff;
+  border-right: #ffffff;
+  border-style: solid;
+}
+
+.jardineriaCurs1 {
+  padding: 3rem;
+}
+
+p {
+  color: #999799;
 }/*# sourceMappingURL=style.css.map */

@@ -20,19 +20,20 @@ body{
 }
 .tituloIndex h1{
     color: #ffffff;
+    font-size: 3rem;
 
 }
 
 .nav-link{
     color: $colorFuente;
     font-size: 1.0rem;
-    transition: all 50ms;
+    transition: 1s;
 }
 
 .nav-link:hover{
     color: $colorFuente;
-    font-size: 1.3rem;
-    opacity: 90%;
+    font-size: 1.5rem;
+    opacity: 50%;
 }
 
 
@@ -54,9 +55,9 @@ body{
     align-items: center;
 }
 
-.tituloh2{
-    margin: 2rem;
-}
+// .tituloh2{
+//     margin: 2rem;
+// }
 
 .servicios{
     margin-top: 5rem;
@@ -112,3 +113,18 @@ footer{
     text-align: center;
 }
  }
+
+ .servicios{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3{
+    text-transform: uppercase;
+    // font-weight: bold;
+}
